@@ -13,6 +13,11 @@ DEFINE('TIME_FORMAT', 'H:i:s');
 DEFINE('DATETIME_FORMAT', DATE_FORMAT . ' ' . TIME_FORMAT);
 DEFINE('LOG_ID', rand(10000, 99999));
 
+DEFINE('REPOSITORY_URL_BASE_API', 'https://api.github.com');
+DEFINE('REPOSITORY_URL_BASE', 'https://github.com');
+DEFINE('REPOSITORY_URL_PATH', 'DJTommek/better-location');
+DEFINE('TELEGRAM_AUTHOR_USERNAME', 'DJTommek');
+
 // @TODO in case of error, show some info about renaming config.local.example.php to config.local.php
 require_once FOLDER_DATA . '/config.local.php';
 
